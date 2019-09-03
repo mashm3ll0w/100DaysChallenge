@@ -6,7 +6,7 @@
 
 <div id="badges" align="center">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/mashm3ll0w/x-days.svg)   ![mash.mellow](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-mash.mellow-%23e30000.svg) ![learning.code](https://img.shields.io/badge/100_days-code-success.svg)
+![mash.mellow](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-mash.mellow-%23e30000.svg) ![learning.code](https://img.shields.io/badge/100_days-code-success.svg)
 
 
 </div>
@@ -29,4 +29,4 @@
 
 
 ## License
-MIT License ©
+MIT License 2019 ©
