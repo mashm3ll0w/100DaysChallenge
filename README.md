@@ -26,6 +26,8 @@
 | Day         | Date          | Activity          |
 | ----------- | :-----------: | ---------------: |
 | Day 00 | 09/03/19 | Plan and Create Template for tracking the progress|
+| Day 01      | 09/04/19      | Completed the ``Delani Studio`` Project.    |
+|             |               |CSS (``background-image``), jQuery(``fadeIn``, ``fadeOut``, ``.find()`` and ``form submitting``)     |
 
 
 ## License
