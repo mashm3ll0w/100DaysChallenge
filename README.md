@@ -29,6 +29,7 @@
 | Day 01      | 09/04/19      | Completed the ``Delani Studio`` Project.    |
 |             |               |CSS (``background-image``), jQuery(``fadeIn``, ``fadeOut``, ``.find()`` and ``form submitting``)     |
 | Day 02 | 09/05/19 | Did the ``Matt-Bank`` project,not yet done but 90% there. Introduced to ``Ajax/Json``. Found a better explanation on ``StackOverflow`` |
+| Day 03  | 09/06/19  | Got the ``JS Pre-Course`` content. Installed ``angular`` and ``typescript`` npm packages. Introduced to using `variables` in the `global scope` and `function scope`. Also introduced to the ``let`` and ``const`` keywords.
 
 
 ## License
