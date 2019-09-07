@@ -29,7 +29,8 @@
 | Day 01      | 09/04/19      | Completed the ``Delani Studio`` Project.    |
 |             |               |CSS (``background-image``), jQuery(``fadeIn``, ``fadeOut``, ``.find()`` and ``form submitting``)     |
 | Day 02 | 09/05/19 | Did the ``Matt-Bank`` project,not yet done but 90% there. Introduced to ``Ajax/Json``. Found a better explanation on ``StackOverflow`` |
-| Day 03  | 09/06/19  | Got the ``JS Pre-Course`` content. Installed ``angular`` and ``typescript`` npm packages. Introduced to using `variables` in the `global scope` and `function scope`. Also introduced to the ``let`` and ``const`` keywords.
+| Day 03  | 09/06/19  | Got the ``JS Pre-Course`` content. Installed ``angular`` and ``typescript`` npm packages. Introduced to using `variables` in the `global scope` and `function scope`. Also introduced to the ``let`` and ``const`` keywords. |
+| Day 04  | 09/07/19 |  Multiline strings using ` {``} ` and embedding variables into strings using ``${name-of-variable}`` ie ``let greeting = `Hi, i am ${name}` ``. The ``fat-arrow syntax => `` and ``destructuring``
 
 
 ## License
