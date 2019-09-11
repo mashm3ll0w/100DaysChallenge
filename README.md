@@ -33,6 +33,7 @@
 | Day 04  | 09/07/19 |  Multiline strings using ` {``} ` and embedding variables into strings using ``${name-of-variable}`` ie ``let greeting = `Hi, i am ${name}` ``. The ``fat-arrow syntax => `` and ``destructuring`` |
 | Day 05  | 09/08/19  | Introduced to the ``for-in`` loops for objects and the ``for-of`` loops for array. Learned(got introduced) to ``Promises``, ``synchronous`` and ``asynchronous`` promises. Also, got the gist of using types and how transcript checks for which category(type) each variable falls in. ie ``number, string, boolean, enum etc``|
 | Day 06  | 09/09/19  | Introduced to `Angular`. Created the first angular app, `class` and `component`. |
+| Day 07  | 09/10/19  | recap on introduction to angular  |
 
 
 ## License
