@@ -34,7 +34,7 @@
 | Day 05  | 09/08/19  | Introduced to the ``for-in`` loops for objects and the ``for-of`` loops for array. Learned(got introduced) to ``Promises``, ``synchronous`` and ``asynchronous`` promises. Also, got the gist of using types and how transcript checks for which category(type) each variable falls in. ie ``number, string, boolean, enum etc``|
 | Day 06  | 09/09/19  | Introduced to `Angular`. Created the first angular app, `class` and `component`. |
 | Day 07  | 09/10/19  | recap on introduction to angular  |
-
+| Day 08  | 09/11/19  | Learned to add `bootstrap` to an angular app and also how to deploy to `gh-pages` |
 
 ## License
 MIT License 2019 ©
