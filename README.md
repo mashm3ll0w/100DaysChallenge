@@ -36,7 +36,7 @@
 | Day 07  | 09/10/19  | recap on introduction to angular  |
 | Day 08  | 09/11/19  | Learned to add `bootstrap` to an angular app and also how to deploy to `gh-pages` |
 | Day 09  | 09/12/19  | Recap on intro to angular |
-
+| Day 10  | 09/13/19  | Watch angular tuts from Traversy Media and Programming with Mosh |
 
 ## License
 MIT License 2019 ©
