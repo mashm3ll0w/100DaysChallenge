@@ -35,6 +35,8 @@
 | Day 06  | 09/09/19  | Introduced to `Angular`. Created the first angular app, `class` and `component`. |
 | Day 07  | 09/10/19  | recap on introduction to angular  |
 | Day 08  | 09/11/19  | Learned to add `bootstrap` to an angular app and also how to deploy to `gh-pages` |
+| Day 09  | 09/12/19  | Recap on intro to angular |
+
 
 ## License
 MIT License 2019 ©
