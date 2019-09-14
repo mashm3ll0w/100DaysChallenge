@@ -37,6 +37,7 @@
 | Day 08  | 09/11/19  | Learned to add `bootstrap` to an angular app and also how to deploy to `gh-pages` |
 | Day 09  | 09/12/19  | Recap on intro to angular |
 | Day 10  | 09/13/19  | Watch angular tuts from Traversy Media and Programming with Mosh |
+|	Day 11	| 09/14/19	| Learn Regex, specifically, how to escape characters. Also got to understand how to view installed packages with `apt-cache policy <package-name>`. Started on FCC Javascript Algorithms module	|
 
 ## License
 MIT License 2019 ©
