@@ -38,6 +38,8 @@
 | Day 09  | 09/12/19  | Recap on intro to angular |
 | Day 10  | 09/13/19  | Watch angular tuts from Traversy Media and Programming with Mosh |
 |	Day 11	| 09/14/19	| Learn Regex, specifically, how to escape characters. Also got to understand how to view installed packages with `apt-cache policy <package-name>`. Started on FCC Javascript Algorithms module	|
+| Day 12  | 09/15/19  | Some Linux Code to reduce boot times `systemd-analyze blame`. Brushed up on some JS code to change page colors. |
+
 
 ## License
 MIT License 2019 ©
