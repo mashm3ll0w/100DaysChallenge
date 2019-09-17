@@ -40,6 +40,7 @@
 |	Day 11	| 09/14/19	| Learn Regex, specifically, how to escape characters. Also got to understand how to view installed packages with `apt-cache policy <package-name>`. Started on FCC Javascript Algorithms module	|
 | Day 12  | 09/15/19  | Some Linux Code to reduce boot times `systemd-analyze blame`. Brushed up on some JS code to change page colors. |
 | Day 13  | 09/16/19  | Some basic `bash` scripting.  |
+| Day 14  | 09/17/19  | More bash shell scripting. |
 
 ## License
 MIT License 2019 ©
