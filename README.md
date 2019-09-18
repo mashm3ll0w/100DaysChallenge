@@ -41,6 +41,7 @@
 | Day 12  | 09/15/19  | Some Linux Code to reduce boot times `systemd-analyze blame`. Brushed up on some JS code to change page colors. |
 | Day 13  | 09/16/19  | Some basic `bash` scripting.  |
 | Day 14  | 09/17/19  | More bash shell scripting. |
+|	Day 15	| 09/18/19	| Back to  angular. Keeping on doing it	|
 
 ## License
 MIT License 2019 ©
