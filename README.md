@@ -42,6 +42,7 @@
 | Day 13  | 09/16/19  | Some basic `bash` scripting.  |
 | Day 14  | 09/17/19  | More bash shell scripting. |
 |	Day 15	| 09/18/19	| Back to  angular. Keeping on doing it	|
+|	Day 16	| 09/19/19	| More angular. Learned how to define a function and call it in the app doc |
 
 ## License
 MIT License 2019 ©
