@@ -43,6 +43,7 @@
 | Day 14  | 09/17/19  | More bash shell scripting. |
 |	Day 15	| 09/18/19	| Back to  angular. Keeping on doing it	|
 |	Day 16	| 09/19/19	| More angular. Learned how to define a function and call it in the app doc |
+| Day 17	| 09/20/19	| The command line. Wuuu.. Finally nailed the permissions command on linux. More bash commands	|
 
 ## License
 MIT License 2019 ©
