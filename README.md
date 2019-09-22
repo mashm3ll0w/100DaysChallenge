@@ -45,6 +45,7 @@
 |	Day 16	| 09/19/19	| More angular. Learned how to define a function and call it in the app doc |
 | Day 17	| 09/20/19	| The command line. Wuuu.. Finally nailed the permissions command on linux. More bash commands	|
 |	Day 18	| 09/21/19	| More bash commands. Formart using the `dd` command, create a partition using `fdisk` and assign a filesystem using `mkfs`. Also, change owner using `chwon` and mount and unmount a drive. 	|
+|	Day 19	|	09/22/19	| Bash commands; `popd`, `pushd`, `lscpu`, `lspci` `free`, `blkid`	|
 
 
 ## License
