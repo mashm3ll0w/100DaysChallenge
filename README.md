@@ -48,6 +48,7 @@
 |	Day 19	|	09/22/19	| Bash commands; `popd`, `pushd`, `lscpu`, `lspci` `free`, `blkid`	|
 |	Day 20 	| 09/23/19	| Created a to-do app in angular. Some concepts i need to understand. Will come back to them later. |
 | Day 21  | 09/24/19  | Introduction to `python`. |
+| Day 22  | 09/25/19  | Learned the basic python syntax |
 
 
 ## License
