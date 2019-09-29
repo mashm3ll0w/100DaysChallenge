@@ -51,6 +51,7 @@
 | Day 22  | 09/25/19  | Learned the basic python syntax |
 | Day 23  | 09/26/19  | learned about error handling and and more python syntax |
 | Day 24  | 09/27/19  | Intro to BDD,TDD  |
+| Day 25	| 09/28/19	| Intro to unittesting |
 
 
 ## License
