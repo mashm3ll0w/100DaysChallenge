@@ -52,7 +52,7 @@
 | Day 23  | 09/26/19  | learned about error handling and and more python syntax |
 | Day 24  | 09/27/19  | Intro to BDD,TDD  |
 | Day 25	| 09/28/19	| Intro to unittesting |
-
+| Day 26	| 09/29/19	| More unittesting practice	|
 
 ## License
 MIT License 2019 ©
