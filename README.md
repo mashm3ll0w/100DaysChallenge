@@ -53,6 +53,7 @@
 | Day 24  | 09/27/19  | Intro to BDD,TDD  |
 | Day 25	| 09/28/19	| Intro to unittesting |
 | Day 26	| 09/29/19	| More unittesting practice	|
+| Day 27	| 09/30/19	| Bit of a sick off today. But revisited unittesting :)	|
 
 ## License
 MIT License 2019 ©
