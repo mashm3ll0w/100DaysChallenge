@@ -54,6 +54,7 @@
 | Day 25	| 09/28/19	| Intro to unittesting |
 | Day 26	| 09/29/19	| More unittesting practice	|
 | Day 27	| 09/30/19	| Bit of a sick off today. But revisited unittesting :)	|
+| Day 28  | 10/01/19  | Python `open` function to read and write files  |
 
 ## License
 MIT License 2019 ©
