@@ -56,6 +56,7 @@
 | Day 27	| 09/30/19	| Bit of a sick off today. But revisited unittesting :)	|
 | Day 28  | 10/01/19  | Python `open` function to read and write files  |
 |	Day 29	| 10/02/19	| Created a github repo for a soldiers project based on everything i've learned about python so far. Yet to fix the delete_contact and copy contact but i'm working on them |
+|	Day 30	| 10/03/19	| Revisit JavaScript	|
 
 ## License
 MIT License 2019 ©
