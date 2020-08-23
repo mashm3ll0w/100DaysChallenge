@@ -27,3 +27,20 @@ if (navigator.geolocation) {
 		document.querySelector(".location").innerHTML = "latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude;
 	});
 }
+
+// 03 - POST data using XMLHttpRequest
+document.getElementById("sendMsg").onclick = () => {
+	let userName = document.getElementById("username").value;
+	let xhr = new XMLHttpRequest();
+	let url = "https://jsonplaceholder.typicode.com/posts";
+	xhr.open("POST", url, true);
+	xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+	xhr.onreadystatechange = () => {
+		if (xhr.readyState === 4 && xhr.status === 201) {
+			let serverResponse = JSON.parse(xhr.response);
+			document.querySelector(".fmServer").textContent = serverResponse.userName + serverResponse.suffix;
+		}
+	};
+	let body = JSON.stringify({ userName: userName, suffix: " loves cats" });
+	xhr.send(body);
+};
