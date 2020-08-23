@@ -20,3 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
 			});
 	};
 });
+
+// 02 - get current user location
+if (navigator.geolocation) {
+	navigator.geolocation.getCurrentPosition((position) => {
+		document.querySelector(".location").innerHTML = "latitude: " + position.coords.latitude + "<br>longitude: " + position.coords.longitude;
+	});
+}
