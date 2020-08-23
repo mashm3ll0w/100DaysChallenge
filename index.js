@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("getBtn").onclick = () => {
 		let req = new XMLHttpRequest();
@@ -54,3 +55,27 @@ document.addEventListener("DOMContentLoaded", () => {
 // 	document.querySelector(".message").innerText = JSON.stringify(json.eye_color);
 // };
 >>>>>>> b3ac49beec430f4dd396d56a3f53d0e8267eeb8b
+=======
+// 01 - Convert JSON data to HTML
+document.addEventListener("DOMContentLoaded", () => {
+	document.getElementById("getContent").onclick = () => {
+		let container = document.querySelector(".container");
+		fetch("https://www.breakingbadapi.com/api/characters/1/")
+			.then((response) => response.json())
+			.then((data) => {
+				let html = "";
+				data.forEach((val) => {
+					let keys = Object.keys(val);
+					keys.forEach((key) => {
+						let card = document.createElement("div");
+						let para = document.createElement("p");
+						para.innerHTML = `<strong>${key}</strong>: ${val[key]}`;
+						card.appendChild(para);
+						container.appendChild(card);
+					});
+				});
+				console.log(html);
+			});
+	};
+});
+>>>>>>> day03
