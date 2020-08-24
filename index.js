@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 document.addEventListener("DOMContentLoaded", () => {
 	document.getElementById("getBtn").onclick = () => {
@@ -169,3 +170,38 @@ document.addEventListener("DOMContentLoaded", () => {
 =======
 >>>>>>> day03
 >>>>>>> b0ecfcb4d1724b9943bc148a0019b8ff90826f69
+=======
+document.addEventListener("DOMContentLoaded", () => {
+	// 01 Get the geolocation of the user
+	// if (navigator.geolocation) {
+	// 	navigator.geolocation.getCurrentPosition((position) => {
+	// 		alert(`Current Location: latitude: ${position.coords.latitude} longitude: ${position.coords.longitude}`);
+	// 	});
+	// } else {
+	// 	alert("Location permission denied");
+	// }
+
+	// 02 Get the API
+	// method 01 - using XMLHttpRequest()
+	let container = document.querySelector(".container");
+	let req = new XMLHttpRequest();
+	let url = "https://rickandmortyapi.com/api/character/1";
+	req.open("GET", url, true);
+	req.responseType = "json";
+	req.send();
+
+	req.onload = () => {
+		let data = [req.response];
+		let img = `<img src="${data[0].image}"/>`;
+		container.innerHTML = img;
+		data.forEach((val) => {
+			let keys = Object.keys(val);
+			keys.forEach((key) => {
+				let div = document.createElement("div");
+				div.innerHTML = `<p><strong>${key}</strong>: ${val[key]}</p>`;
+				container.appendChild(div);
+			});
+		});
+	};
+});
+>>>>>>> day04-RickMortyAPI
