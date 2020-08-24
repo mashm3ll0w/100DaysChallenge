@@ -19,10 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	req.onload = () => {
 		let data = [req.response];
+		let img = `<img src="${data[0].image}"/>`;
+		container.innerHTML = img;
 		data.forEach((val) => {
 			let keys = Object.keys(val);
 			keys.forEach((key) => {
-				console.log(key, val[key]);
+				let div = document.createElement("div");
+				div.innerHTML = `<p><strong>${key}</strong>: ${val[key]}</p>`;
+				container.appendChild(div);
 			});
 		});
 	};
