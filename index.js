@@ -38,3 +38,26 @@ function logNumber() {
 }
 
 addOne(logNumber);
+
+// PROMISES
+
+// This uses the then() method to run code once something finishes happening.
+
+let p = new Promise((resolve, reject) => {
+  if(/* if it works */){
+    resolve("Success!");
+  }
+  else{
+    reject("Failure");
+  }
+});
+
+p.then(result => {
+  /* do something with the result */
+}).catch(() => {
+  /* show error if theres one */
+}).finally(() => {
+  /* execute regardless of success or failure */
+});
+
+// the above is the syntax for a basic promise
