@@ -1,2 +1,2 @@
 
-document.querySelector("div").style.backgroundColor = "teal";
+document.querySelector("div").style.backgroundColor = "magenta";
