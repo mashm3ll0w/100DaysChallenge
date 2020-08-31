@@ -1,5 +1,4 @@
-
-document.querySelector("div").style.backgroundColor = "magenta";
-document.querySelector("p").style.color = "indigo";
-document.querySelectorAll("p")[2].style.color = "white";
-document.querySelectorAll("p")[2].style.backgroundColor = "black";
+document.querySelector("body").style.textAlign = "center";
+document.querySelector(".tag").style.fontSize = "1.25rem";
+document.querySelector(".tag").style.color = "indigo";
+document.querySelector(".desc").style.fontSize = "2rem";
