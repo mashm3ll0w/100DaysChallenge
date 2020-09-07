@@ -42,3 +42,24 @@ WHERE first_name="Charles"
 
 -- delete entire table
 DROP TABLE customers
+
+
+
+-- RELATIONSHIPS, FOREIGN KEYS AND INNER JOINS
+-- this is where you link 2 tables together using foreign keys
+
+CREATE TABLE orders(
+  id INT NOT NULL,
+  order_number INT,
+  customer_id INT,
+  PRIMARY KEY(id),
+  FOREIGN KEY(customer_id) REFERENCES customers(id)
+);
+
+INSERT INTO orders
+VALUES(1, 62134, 2);
+
+-- select and display content from both tables
+SELECT orders.id, orders.order_number, customers.first_name, customers.last_name
+FROM orders
+INNER JOIN customers ON orders.customer_id = customers.id
