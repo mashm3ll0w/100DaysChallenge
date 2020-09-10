@@ -41,3 +41,5 @@ db.products.updateOne({name: "Pen"}, {$set: {stock: 45}}) // match the product n
 // update the value of an existing column
 db.products.updateOne({name: "Pen"}, {$set: {price: 1.5}})  // finds the Pen and updates the price from 1.2 to 1.5
 
+// delete a value from a collection/table
+db.products.deleteOne({_id: 1}) // this will delete the item with the id of 1
