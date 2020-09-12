@@ -43,3 +43,42 @@ db.products.updateOne({name: "Pen"}, {$set: {price: 1.5}})  // finds the Pen and
 
 // delete a value from a collection/table
 db.products.deleteOne({_id: 1}) // this will delete the item with the id of 1
+
+
+// EXERCISE
+// Create a db, add a collection(table) and then add records to it
+use armyDB
+
+db.svcmembers.insertMany(
+  {
+    _id: 1,
+    svc_number: 97428,
+    rank: "SPTE",
+    surname: "Swaleh",
+    unit: "7 KR"
+  },
+  {
+    _id: 2,
+    svc_number: 97351,
+    rank: "SPTE",
+    surname: "Munyui",
+    unit: "75 ARTY BN"
+  },
+  {
+    _id: 3,
+    svc_number: 82101,
+    rank: "SPTE",
+    surname: "Eyanae",
+    unit: "81 TK BN"
+  }
+)
+
+db.svcmembers.find()
+db.svcmembers.find({surname: "Swaleh"})
+db.svcmembers.find({svc_number: {$lt : 90000}})
+db.svcmembers.find({unit: "7 KR"}, {svc_number: 1, rank: 1, surname: 1, unit: 0, _id: 0})
+
+db.svcmembers.updateOne({name: "Munyui"}, {$set: {unit: "ARTY BDE HQS"}})
+
+
+db.svcmembers.deleteOne({name: "Swaleh"})
