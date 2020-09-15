@@ -4,11 +4,26 @@ mongoose.connect("mongodb://localhost:27017/soldiersDB", { useNewUrlParser: true
 
 // create the schema that will serve as the blueprint for the database objects
 const soldierSchema = new mongoose.Schema({
+
+	//  data validation in mongoose
+	// checks for the data type and throws an error if the data type mismatches or if the field is left empty
 	_id: Number,
-	service_number: Number,
-	rank: String,
-	surname: String,
-	unit: String,
+	service_number: {
+		type: Number,
+		required: true,
+	},
+	rank: {
+		type: String,
+		required: true
+	},
+	surname: {
+		type: String,
+		required: true
+	},
+	unit: {
+		type: String,
+		required: true
+	},
 });
 
 // create a model that will follow the schema and will be the basis of creating the individual records
@@ -65,7 +80,12 @@ Soldier.find(function(err, soldiers){
 		console.log("Error reading from DB", err);
 	}
 	else{
+		// closes the connection to the database once the results are returned and there are no errors
+		mongoose.connection.close();
+
 		// returns an array of objects meaning you can use any array method on the result
 		console.log("Success", soldiers);
+		soldiers.map(soldier => soldier.surname);
+
 	}
 });
