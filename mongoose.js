@@ -56,3 +56,16 @@ Soldier.insertMany([swaleh, thuo, wachira, wallace], function (err) {
 		console.log("Successfully update the database");
 	}
 });
+
+
+// read the data from the database
+// use the model name to read from the soldiers collection.
+Soldier.find(function(err, soldiers){
+	if(err){
+		console.log("Error reading from DB", err);
+	}
+	else{
+		// returns an array of objects meaning you can use any array method on the result
+		console.log("Success", soldiers);
+	}
+});
