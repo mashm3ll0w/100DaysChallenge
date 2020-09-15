@@ -121,4 +121,37 @@ Soldier.deleteMany({_id: {$gt: 3}}, function(err){
 	else{
 		console.log("Successfully deleted then updated the document")
 	}
-})
+});
+
+
+// relationships between 2 or more documents
+// links one document to the other
+// has to be defined in the schema. MUST BE
+const fruitsSchema = new mongoose.Schema({
+	name: String,
+	rating: Number
+});
+
+const childrenSchema = new mongoose.Schema({
+	name: String,
+	age: Number,
+	favFruit: fruitsSchema
+});
+
+
+const Fruit = mongoose.model("Fruit", fruitsSchema);
+const Child = mongoose.model("child", childrenSchema);
+
+const apple = new Fruit({
+	name: "Apple",
+	rating: 9
+});
+apple.save();
+
+const logan = new Child({
+	name: "Logan Swaleh",
+	age: 7,
+	favFruit: apple
+});
+
+logan.save();
