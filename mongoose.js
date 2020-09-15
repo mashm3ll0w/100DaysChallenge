@@ -89,3 +89,36 @@ Soldier.find(function(err, soldiers){
 
 	}
 });
+
+// update a single record
+// takes 3 arguments, filter, what to be updated and what to do incase of an error
+Soldier.updateOne({service_number: 97422}, {service_number: 89730},  function(err){
+	if(err){
+		console.log(err);
+	}
+	else{
+		console.log("Successfully updated the record");
+	}
+});
+
+// delete a single record
+// takes 2 arguments, a filter for what to delete and a function incase of an error
+Soldier.deleteOne({surname: "Makori"}, function(err){
+	if(err){
+		console.log(err);
+	}
+	else{
+		console.log("Successfully deleted the record and updated the document");
+	}
+});
+
+// delete multiple records
+// deletes all the records whose id is greater than 3
+Soldier.deleteMany({_id: {$gt: 3}}, function(err){
+	if(err){
+		console.log(err);
+	}
+	else{
+		console.log("Successfully deleted then updated the document")
+	}
+})
